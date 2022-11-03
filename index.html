@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Hour Copleted Html</title>
+</head>
+
+<body>
+
+    <h1>HTML 2 Hour Completed </h1>
+    
+
+    <!-- ///////////////////////////////// HTML LIST /////////////////////////////////////  -->
+    <!-- 1) Ordered List       ////////// 0) Unordered List   -->
+
+
+    <ol type="I">
+        <li>Karachi</li>
+        <li>Punjab</li>
+        <li>Balochistan</li>
+    </ol>
+
+
+    <ul type="circle">
+        <li>Karachi</li>
+        <li>Punjab</li>
+        <li>Balochistan</li>
+    </ul>
+
+
+
+    <!-- Practice Set : 03  -->
+    <!-- Create a list ,,,, ???  -->
+
+
+    <!-- Tihs is also called Nested Lists in HTML -->
+    <ul type="square">
+        <li>HTML
+            <ul>
+                <li>HTML Semantic Layout</li>
+                <li>Semantic Element
+                    <ol>
+                        <li>Header</li>
+                        <li>Footer</li>
+                    </ol>
+                </li>
+                <li>Non-Semantic Element
+                    <ol>
+                        <li>Div</li>
+                        <li>Span</li>
+                    </ol>
+                </li>
+
+            </ul>
+        </li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+
+
+    <!-- ////////////////////////////// HTML TABLES  /////////////////////////////////////// -->
+    <!-- <th></th>  Table Heading ,,,, <td></td> Table Data ,,,, <tr></tr> Table Row -->
+
+    <!-- HTML tables allows web developers to arrange data into rows and columns. -->
+    <!-- we have to write everything inside the <table>   </table>  tag  -->
+
+    <table border="1" cellspacing="0" cellpadding="5">
+
+        <thead>
+
+            <tr>
+                <th>Username </th>
+                <th>Password </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Mubashir</td>
+                <td`>987654321</td>
+            </tr>
+
+            <tr>
+                <td>Ibrahim</td>
+                <td`>123456789</td>
+            </tr>
+        </tbody>
+</table>
+
+<!-- ////////////////////////// Practice Set : 04 //////////////////////////////// -->
+<!-- you have to create a school time table .... -->
+
+
+<table border="1" cellspacing="0" cellpadding="5">
+
+    <tr>
+        <th colspan="7">Time Table</th>
+    </tr>
+
+    <tr>
+        <th rowspan="7">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+    </tr>
+
+    <tr>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+    </tr>
+
+    <tr>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+    </tr>
+
+    <tr>
+        <th colspan="7">Lunch</th>
+    </tr>
+
+    <tr>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th rowspan="2">Games</th>
+    </tr>
+
+    <tr>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+        <th>Math</th>
+    </tr>
+
+</table>
+
+<br>
+<br>
+<br>
+
+
+<!-- ////////////////////////////// HTML Forms //////////////////////////////////////// -->
+<!-- the form tag is used to create an HTML form for user input . -->
+<!-- We have to write inside the <form> </form> tag -->
+
+
+<form action="">
+
+    
+    <!--the label element defines a lable for several form elements  -->
+    <!--for="user" attribute of the label tag should be equal to the input id="user"   -->
+    <!--The label element is useful for screen reader users  -->
+
+    <label for="user">Username :</label>
+    <input type="text" id="user" placeholder="John Doe" >
+
+
+    <br>
+    <br>
+
+
+
+    <!--The input value attribute specifies an initial value for an input field .  -->
+
+    <label for="user">Username :</label>
+    <input type="text" id="user" value="John Doe" placeholder="John Doe" >
+
+    <br>
+    <br>
+
+    <!--The input read only attribute specifies than an input field is read only .  -->
+
+    <label for="user">Username :</label>
+    <input type="text" id="user" value="John Doe" readonly placeholder="John Doe" >
+
+
+    <br>
+    <br>
+    
+    <!--The input disabled attribute specifies than an input field is disabled .  -->
+
+    <label for="user">Username :</label>
+    <input type="text" id="user" value="John Doe" disabled  placeholder="John Doe" >
+
+
+    <br>
+    <br>
+
+
+    <!--The input size attribute specidies the characters, of an input field , the default value of size is 20 .  -->
+
+    <label for="user">Username :</label>
+    <input type="text" id="user" value="John Doe" size="10"  placeholder="John Doe" >
+
+
+    <br>
+    <br>
+
+
+    <!--The input maxlenght attribute speciies the maximum number of characters allowed to an input field .  -->
+    <!--It works on type="text" maxlenght="11" for tel Number  -->
+    <label for="num">Tel+ :</label>
+    <input type="text" id="num" maxlength="11"  placeholder="03222571721" >
+
+
+    <br>
+    <br>
+
+
+
+    <!--The input min and max attribute speciies the minimum and maximum values for an input field  -->
+
+    <label for="number">Tel+ :</label>
+    <input type="number" id="number" min="1" max="11"  placeholder="1 to 5" >
+
+
+    <br>
+    <br>
+
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+    <label for="datemax">Enter a Date Before 1980-01-01 : </label>
+    <input 
+    type="date"
+    id="datemax"
+    name="datemax"
+    max="1979-12-31"> 
+
+
+    <br>
+    <br>
+
+
+
+    <label for="datemax">Enter a Date After 2000-01-01 : </label>
+    <input 
+    type="date"
+    id="datemax"
+    name="datemax"
+    min="2000-12-31"> 
+
+
+    <br>
+    <br>
+
+
+<!-- In input once is multiple attribute to select multiple files for get the user files . -->
+
+<label for="files">Select Files ...</label>
+<input type="file" name="files" id="files" multiple>
+
+<br>
+<br>
+
+<!-- the input placeholder="John Doe"   Try It In your Input field -->
+<input type="text" placeholder="Jon Doe"> 
+<br>
+<br>
+<!-- the input required attribute indicate this field must filled its mandatory -->
+<input type="text" required placeholder="Jon Doe">
+
+<br>
+<br>
+<!-- the input autofocus attribute when the page loads autofocus on the field . -->
+<input type="text" autofocus required placeholder="Jon Doe">
+
+<br>
+<br>
+<!-- the input autocomplete="on/off"  ... we should always off -->
+<input type="text" autocomplete="off" autofocus required placeholder="Jon Doe">
+
+
+</form>
+
+
+
+////////////////////////////////////////////////////////////////
+<!-- End 2:05 minutes Video  -->
+
+
+
+
+
+
+</body>
+
+</html>
